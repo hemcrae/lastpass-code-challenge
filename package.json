@@ -20,7 +20,8 @@
     "framer-motion": "^4.1.17",
     "prettier": "^2.4.1",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "sass": "^1.42.1"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
