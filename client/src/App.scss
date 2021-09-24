@@ -1,5 +1,22 @@
+@use "../src//abstract/mixins.scss" as *;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #24386e;
+}
+
+.container {
+  background-image: url("./abstract/backgroundImg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 1rem;
 }

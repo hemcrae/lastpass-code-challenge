@@ -1,0 +1,23 @@
+@use "../../abstract/mixins.scss" as *;
+
+.form {
+  @include form;
+
+  &__heading {
+    @include heading;
+  }
+
+  &__username,
+  &__password {
+    @include label;
+  }
+
+  &__username-input,
+  &__password-input {
+    @include input;
+  }
+
+  &__button {
+    @include button;
+  }
+}

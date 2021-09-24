@@ -1,0 +1,39 @@
+@use "../../abstract/mixins.scss" as *;
+
+.dashboard {
+  @include form;
+
+  &__heading {
+    @include heading;
+  }
+
+  &__message {
+    @include label;
+  }
+
+  &__input {
+    @include input;
+    font-family: inherit;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__button-save {
+    @include button;
+    width: 150px;
+  }
+
+  &__button-logout {
+    @include button;
+    width: 100px;
+    background-color: #d3d3d3;
+    color: #24386e;
+    &:hover {
+      background-color: darken(#d3d3d3, 15%);
+    }
+  }
+}

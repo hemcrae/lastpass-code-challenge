@@ -1,0 +1,44 @@
+@mixin button {
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  outline: none;
+  border: #c2c8cf solid 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: background 250ms;
+  background-color: #00825a;
+
+  &:hover {
+    background-color: #009c6c;
+  }
+}
+
+@mixin heading {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+@mixin input {
+  border: #c2c8cf solid 1px;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@mixin form {
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+@mixin label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}

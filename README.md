@@ -1,5 +1,26 @@
 # LastPass Front End Engineering Challenge
 
+## How to run project
+
+Install dependencies:
+
+```
+$ npm i
+```
+
+Start application:
+
+```
+$ npm start
+```
+
+How to login:
+
+```
+username: username
+password: password
+```
+
 ## Requirements
 
 1. The backend API should have a single login endpoint which authenticates the user. It shall return an empty 200 response if authenticated or a 401 response if not. To create the user you may implement a create account API or provide mock credentials for the challenge.
